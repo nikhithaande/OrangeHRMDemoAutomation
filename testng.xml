@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumOrangeHRMDemo">
+    <test verbose="2" preserve-order="true" name="Login">
+        <classes>
+            <class name="Tests.TestLogin">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="ForgotPasswordLink">
+        <classes>
+            <class name="Tests.TestValidateForgotPasswordLink">
+                <methods>
+                    <include name="validateForgotPasswordLink"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="ValidateText">
+        <classes>
+            <class name="Tests.TestValidateText">
+                <methods>
+                    <include name="validateText"/>
+                    <include name="validateForgotPasswordText"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

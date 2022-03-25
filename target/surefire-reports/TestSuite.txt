@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.32 s <<< FAILURE! - in TestSuite
+validateForgotPasswordText(Tests.TestValidateText)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: expected [Forgot your password?] but found [Forgot your password]
+	at Tests.TestValidateText.validateForgotPasswordText(TestValidateText.java:43)
+
